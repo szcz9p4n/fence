@@ -16,7 +16,8 @@ int main() {
 
 void showLenght(int howMany)
 {
-    int i = 1;
+    int i = 1;                                              //counter
+
     int *lenghtA;
     lenghtA =new int[howMany];
     int *lenghtB;
@@ -59,7 +60,7 @@ int searchInTabs(int wanted, int *tab, int till)
         if (tab[d]==wanted)
         {
 
-            //std::cout<<"Liczba znajduje sie w tablicy na pozycji "<<i<<std::endl;
+            //searching for a value index
             return d;
 
         }
