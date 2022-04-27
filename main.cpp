@@ -8,9 +8,15 @@ int searchInTabs(int wanted, int *tab, int till);
 
 
 int main() {
-    std::cout << "Enter length of fance: ";
+    std::cout << "Enter length of fance:";
+    std::cout<<std::endl;
     std::cin>>fenceLenght;
-    showLenght(fenceLenght);
+    std::cout<<std::endl;
+    if (fenceLenght>0) showLenght(fenceLenght);
+    else std::cout<<"Enter a positive number, please.";
+
+    system("pause");
+
     return 0;
 }
 
