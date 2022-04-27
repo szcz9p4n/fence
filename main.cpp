@@ -1,6 +1,7 @@
 #include <iostream>
 
 int fenceLenght;
+std::string start;
 
 void showLenght(int howMany);
 void bubbleSort(int *tab, int n);
@@ -8,12 +9,26 @@ int searchInTabs(int wanted, int *tab, int till);
 
 
 int main() {
-    std::cout << "Enter length of fance:";
-    std::cout<<std::endl;
-    std::cin>>fenceLenght;
-    std::cout<<std::endl;
-    if (fenceLenght>0) showLenght(fenceLenght);
-    else std::cout<<"Enter a positive number, please.";
+    std::cout<<"Enter \"RUN\" to start the program.\n If you want to end the program - type \"END\""<<std::endl;
+    std::cin>>start;
+    if (start=="RUN")
+    {
+        std::cout << "Enter length of fance:";
+        std::cout<<std::endl;
+        std::cin>>fenceLenght;
+        std::cout<<std::endl;
+        if (fenceLenght>0) showLenght(fenceLenght);
+        else std::cout<<"Enter a positive number, please.";
+    }
+    else if (start=="END")
+    {
+        std::cout << "END of program.";
+    }
+    else
+    {
+        std::cout << "You have selected the wrong option. Enter \"RUN\" to start the program.\n If you want to end the program - type \"END\""<<std::endl;
+    }
+
 
     system("pause");
 
