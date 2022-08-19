@@ -9,7 +9,7 @@ int searchInTabs(int wanted, int *tab, int till);
 
 
 int main() {
-    std::cout<<"Enter \"RUN\" to start the program.\n If you want to end the program - type \"END\""<<std::endl;
+    std::cout<<"Type \"RUN\" to start the program.\n If you want to end the program - type \"END\""<<std::endl;
     std::cin>>start;
     if (start=="RUN")
     {
@@ -26,7 +26,7 @@ int main() {
     }
     else
     {
-        std::cout << "You have selected the wrong option. Enter \"RUN\" to start the program.\n If you want to end the program - type \"END\""<<std::endl;
+        std::cout << "You have selected the wrong option. Type \"RUN\" to start the program.\n If you want to end the program - type \"END\""<<std::endl;
     }
 
 

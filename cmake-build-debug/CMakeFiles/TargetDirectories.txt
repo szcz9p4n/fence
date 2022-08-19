@@ -1,0 +1,3 @@
+D:/programowanie/fanceLenght/fence/cmake-build-debug/CMakeFiles/fence.dir
+D:/programowanie/fanceLenght/fence/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/programowanie/fanceLenght/fence/cmake-build-debug/CMakeFiles/rebuild_cache.dir
